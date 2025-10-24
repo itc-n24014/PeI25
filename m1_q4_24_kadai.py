@@ -1,7 +1,8 @@
 animals = ['Dog', 'Cat', 'Rabbit', 'Horse', 'Dolphin']
 total = 0
 for animal in animals:
-	form_D = animal.startswith('D') # animalが'D'で始まり場合True,そうでない場合falseヲァエス
+	print("totalの値は", total)
+	form_D = animal.startswith('D') # animalが'D'で始まる場合True,そうでない場合falseを返す
 	is_long = len(animal) > 5 # animalの文字数が5文字以上ならTrue
 	if form_D and is_long:
 		break	# どちらもTrueならbreak
